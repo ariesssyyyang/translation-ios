@@ -29,6 +29,8 @@ struct PresentTranslationView: View {
             .buttonStyle(.borderedProminent)
         }
         .padding()
-        .translationPresentation(isPresented: $isPresented, text: sourceText)
+        .translationPresentation(isPresented: $isPresented, text: sourceText) { translatedString in
+            sourceText = translatedString
+        }
     }
 }
