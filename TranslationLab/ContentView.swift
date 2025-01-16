@@ -9,12 +9,13 @@ import SwiftUI
 import SwiftData
 
 enum TranslationType: Int, CaseIterable {
-    case present, replace, instant
+    case present, replace, batch, instant
 
     var title: String {
         switch self {
         case .present: return "PRESENT"
         case .replace: return "REPLACE"
+        case .batch: return "BATCH"
         case .instant: return "INSTANT"
         }
     }
@@ -42,6 +43,8 @@ struct ContentView: View {
                 PresentTranslationView()
             case .replace:
                 ReplaceTranslationView()
+            case .batch:
+                BatchTranslationView()
             case .instant:
                 InstantTranslationView()
             }
