@@ -8,7 +8,18 @@
 
 /* Begin PBXFileReference section */
 		7F875E922D38EE5200A8C306 /* TranslationLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranslationLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB8EA052D3FA10A003B62AF /* TranslationClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranslationClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7FB8EA322D3FA10A003B62AF /* Exceptions for "TranslationClient" folder in "TranslationClient" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7FB8EA042D3FA10A003B62AF /* TranslationClient */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7F875E942D38EE5200A8C306 /* TranslationLab */ = {
@@ -16,10 +27,25 @@
 			path = TranslationLab;
 			sourceTree = "<group>";
 		};
+		7FB8EA062D3FA10A003B62AF /* TranslationClient */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7FB8EA322D3FA10A003B62AF /* Exceptions for "TranslationClient" folder in "TranslationClient" target */,
+			);
+			path = TranslationClient;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7F875E8F2D38EE5200A8C306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB8EA022D3FA10A003B62AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				7F875E942D38EE5200A8C306 /* TranslationLab */,
+				7FB8EA062D3FA10A003B62AF /* TranslationClient */,
 				7F875E932D38EE5200A8C306 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				7F875E922D38EE5200A8C306 /* TranslationLab.app */,
+				7FB8EA052D3FA10A003B62AF /* TranslationClient.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +98,28 @@
 			productReference = 7F875E922D38EE5200A8C306 /* TranslationLab.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7FB8EA042D3FA10A003B62AF /* TranslationClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB8EA332D3FA10A003B62AF /* Build configuration list for PBXNativeTarget "TranslationClient" */;
+			buildPhases = (
+				7FB8EA012D3FA10A003B62AF /* Sources */,
+				7FB8EA022D3FA10A003B62AF /* Frameworks */,
+				7FB8EA032D3FA10A003B62AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7FB8EA062D3FA10A003B62AF /* TranslationClient */,
+			);
+			name = TranslationClient;
+			packageProductDependencies = (
+			);
+			productName = TranslationClient;
+			productReference = 7FB8EA052D3FA10A003B62AF /* TranslationClient.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -81,6 +131,9 @@
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					7F875E912D38EE5200A8C306 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					7FB8EA042D3FA10A003B62AF = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -100,6 +153,7 @@
 			projectRoot = "";
 			targets = (
 				7F875E912D38EE5200A8C306 /* TranslationLab */,
+				7FB8EA042D3FA10A003B62AF /* TranslationClient */,
 			);
 		};
 /* End PBXProject section */
@@ -112,10 +166,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7FB8EA032D3FA10A003B62AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F875E8E2D38EE5200A8C306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB8EA012D3FA10A003B62AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,6 +395,75 @@
 			};
 			name = Release;
 		};
+		7FB8EA2C2D3FA10A003B62AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 3VX9S93JFQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TranslationClient/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ariespicyang.translation-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "General Development";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FB8EA2D2D3FA10A003B62AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 3VX9S93JFQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TranslationClient/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ariespicyang.translation-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "General Development";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -344,6 +481,15 @@
 			buildConfigurations = (
 				7F875EA42D38EE5300A8C306 /* Debug */,
 				7F875EA52D38EE5300A8C306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB8EA332D3FA10A003B62AF /* Build configuration list for PBXNativeTarget "TranslationClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB8EA2C2D3FA10A003B62AF /* Debug */,
+				7FB8EA2D2D3FA10A003B62AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
