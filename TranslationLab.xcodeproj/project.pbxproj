@@ -19,11 +19,21 @@
 			);
 			target = 7FB8EA042D3FA10A003B62AF /* TranslationClient */;
 		};
+		7FB8EA472D3FB53E003B62AF /* Exceptions for "TranslationLab" folder in "TranslationClient" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TranslationView/InstantTranslationView.swift,
+			);
+			target = 7FB8EA042D3FA10A003B62AF /* TranslationClient */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7F875E942D38EE5200A8C306 /* TranslationLab */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7FB8EA472D3FB53E003B62AF /* Exceptions for "TranslationLab" folder in "TranslationClient" target */,
+			);
 			path = TranslationLab;
 			sourceTree = "<group>";
 		};
